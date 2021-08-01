@@ -1,0 +1,13 @@
+.places__place {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    grid-gap: 48px 40px;
+    grid-template-areas: "title website"
+    "image text";
+}
+
+.places__place:first-child {
+    margin-top: 92px;
+}

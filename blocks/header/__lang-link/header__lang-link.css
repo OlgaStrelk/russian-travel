@@ -1,0 +1,19 @@
+.header__lang-link {
+    margin: 0;
+    padding: 0;
+    padding-left: 18px;
+    font-size: 1.5rem;
+    line-height: 28px;
+    list-style-type: none;
+}
+
+.header__lang-link_active {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+    .header__lang-link {
+        font-size: 1.125rem;
+        line-height: 20px;
+    } 
+}
