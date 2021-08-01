@@ -1,4 +1,5 @@
 .cover__background {
-    background-image: url('../../../images/cover-trains.jpg');
+    background: center center no-repeat url('../../../images/cover-trains.jpg');
+    background-size: cover;
     min-height: 740px;
 }

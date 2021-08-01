@@ -2,3 +2,10 @@
     margin: 12px 100px 0;
     padding: 0;
 }
+
+@media screen and (max-width: 1279px) {
+    .places {
+    margin-left: 48px;
+    margin-right: 48px;
+}
+}
