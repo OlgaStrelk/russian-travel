@@ -11,10 +11,12 @@
         font-size: 42px;
         line-height: 46px;
         min-height: 46px;
-        padding-right: 30px;
     }
+}
 
-    .place:not(:first-child) {
-        margin-top: 73px;
-      }
+@media screen and (max-width: 767px) {
+    .places__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
 }

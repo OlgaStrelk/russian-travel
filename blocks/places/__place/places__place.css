@@ -23,9 +23,35 @@
     .places__place {
         grid-template-columns: 340px 1fr;
         grid-gap: 48px 28px;
+        margin-top: 0;
+        margin-bottom: 73px;
+    }
+    .places__place:last-child {
+        margin-bottom: 0;
     }
 
     .places__place:first-child {
         margin-top: 88px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places__place {
+
+        grid-template-columns: 320px;
+        grid-gap: 32px;
+        grid-template-areas: 'title'
+        'website'
+        'image'
+        'text';
+        margin-bottom: 50px;
+    }
+
+    .places__place:last-child {
+        margin-bottom: 0;
+    }
+
+    .places__place:first-child {
+        margin-top: 64px;
     }
 }
