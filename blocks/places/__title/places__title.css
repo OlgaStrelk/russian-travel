@@ -1,7 +1,6 @@
 .places__title {
     margin: 0;
     padding: 0;
-    min-height: 76px;
     font-size: 4.5rem;
     line-height: 76px;
     grid-area: title;
@@ -12,5 +11,10 @@
         font-size: 42px;
         line-height: 46px;
         min-height: 46px;
+        padding-right: 30px;
     }
+
+    .place:not(:first-child) {
+        margin-top: 73px;
+      }
 }

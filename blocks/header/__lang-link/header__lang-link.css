@@ -7,8 +7,8 @@
     list-style-type: none;
 }
 
-.header__lang-link_active {
-    text-decoration: underline;
+.header__lang-link:first-child {
+    padding-left: 0;
 }
 
 @media screen and (max-width: 767px) {

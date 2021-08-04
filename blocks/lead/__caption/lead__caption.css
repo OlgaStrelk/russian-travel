@@ -8,19 +8,13 @@
     margin-top: 8px;
 }
 
-@media screen and (max-width: 1024px) {
-    .lead__caption {
-        margin-left: 48px;
-    }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .lead__caption {
         margin-left: 24px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .lead__caption {
         margin-left: 16px;
     }

@@ -4,7 +4,13 @@
     min-height: 200px;
     text-align: center;
     font-size: 6rem;
-    line-height: 1.04;
+    line-height: 100px;
+}
+
+@media screen and (max-width: 1279px) {
+    .lead__title {
+    margin-top: 48px;
+}
 }
 
 @media screen and (max-width: 767px) {
