@@ -1,15 +1,15 @@
 .menu__items {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
 }
 
 @media screen and (max-width: 767px) {
-    .menu__items {
-        flex-direction: column;
-        justify-content: space-between;
-        margin-bottom: 48px;
-        min-height: 248px;
-    }
+  .menu__items {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    min-height: 248px;
+  }
 }

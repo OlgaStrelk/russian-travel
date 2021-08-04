@@ -1,0 +1,5 @@
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .places__title_name_two-lines {
+    padding-right: 19px;
+  }
+}

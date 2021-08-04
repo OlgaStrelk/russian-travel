@@ -1,20 +1,20 @@
 .photo-grid {
-    margin-top: 92px;
+  margin-top: 92px;
 }
 @media screen and (max-width: 1279px) {
-    .photo-grid {
-        margin: 92px 48px 0;
-    }
+  .photo-grid {
+    margin: 92px 48px 0;
+  }
 }
 
 @media screen and (max-width: 1023px) {
-    .photo-grid {
-        margin: 88px 24px 0;
-    }
+  .photo-grid {
+    margin: 88px 24px 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .photo-grid {
-        margin: 64px 16px 0;
-    }
+  .photo-grid {
+    margin: 64px 16px 0;
+  }
 }

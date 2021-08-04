@@ -1,19 +1,19 @@
 .menu__link {
-    text-decoration: none;
-    margin-right: 18px;
-    color: #FFF;
-    line-height: 18px;
+  text-decoration: none;
+  margin-right: 18px;
+  color: #fff;
+  line-height: 18px;
 }
 
 @media screen and (max-width: 747px) {
-    .menu__link {
-        margin-right: 0;
-        font-size: 24px;
-        line-height: 1;
-        margin-bottom: 32px;
-    }
+  .menu__link {
+    margin-right: 0;
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 32px;
+  }
 
-    .menu__link:last-child {
-        margin-bottom: 0;
-    }
+  .menu__link:last-child {
+    margin-bottom: 0;
+  }
 }

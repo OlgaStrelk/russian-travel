@@ -1,6 +1,5 @@
 .places__paragraphs {
-    grid-area: text;
-    font-size: 18px;
-    line-height: 29.34px;
+  grid-area: text;
+  font-size: 18px;
+  line-height: 29.34px;
 }
-

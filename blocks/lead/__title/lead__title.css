@@ -1,26 +1,25 @@
 .lead__title {
-    margin: 56px auto 32px;
-    max-width: 720px;
-    min-height: 200px;
-    text-align: center;
-    font-size: 6rem;
-    line-height: 100px;
+  margin: 56px auto 32px;
+  max-width: 720px;
+  min-height: 200px;
+  text-align: center;
+  font-size: 6rem;
+  line-height: 100px;
 }
 
 @media screen and (max-width: 1279px) {
-    .lead__title {
+  .lead__title {
     margin-top: 48px;
-}
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .lead__title {
-        font-size: 2.5rem;
-        line-height: 1.1;
-        line-height: 44px;
-        min-width: 288px;
-        min-height: 88px;
-        margin-bottom: 16px;
-    }
-    
+  .lead__title {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    line-height: 44px;
+    min-width: 288px;
+    min-height: 88px;
+    margin-bottom: 16px;
+  }
 }

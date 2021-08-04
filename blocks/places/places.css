@@ -1,24 +1,24 @@
 .places {
-    margin: 0 100px;
-    padding: 0;
+  margin: 0 100px;
+  padding: 0;
 }
 
 @media screen and (max-width: 1279px) {
-    .places {
+  .places {
     margin-left: 48px;
     margin-right: 48px;
-}
+  }
 }
 
 @media screen and (max-width: 1023px) {
-    .places {
-        margin-left: 24px;
-        margin-right: 24px;
-    }
+  .places {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .places {
-        margin: 0;
-    }    
+  .places {
+    margin: 0;
+  }
 }
