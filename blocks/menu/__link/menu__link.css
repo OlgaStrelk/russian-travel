@@ -3,6 +3,12 @@
   margin-right: 18px;
   color: #fff;
   line-height: 18px;
+  opacity: 1;  
+  transition: opacity 1s linear;
+}
+
+.menu__link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 747px) {

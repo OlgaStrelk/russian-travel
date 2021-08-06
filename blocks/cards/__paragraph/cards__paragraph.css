@@ -1,22 +1,22 @@
-.places__paragraph {
+.cards__paragraph {
   margin: 0;
   margin-top: 26px;
   font-size: 18px;
   line-height: 29.34px;
 }
 
-.places__paragraph:first-child {
+.cards__paragraph:first-child {
   margin-top: 0;
 }
 
 @media screen and (max-width: 1279px) {
-  .places__paragraph {
+  .cards__paragraph {
     margin-top: 27px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .places__paragraph {
+  .cards__paragraph {
     font-size: 16px;
     line-height: 26.08px;
     margin-top: 25px;
@@ -24,7 +24,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .places__paragraph {
+  .cards__paragraph {
     margin: 0 16px;
   }
 }

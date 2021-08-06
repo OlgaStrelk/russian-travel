@@ -1,11 +1,11 @@
-.places__list {
+.cards {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
 @media screen and (max-width: 767px) {
-  .places__list {
+  .cards {
     max-width: 320px;
     margin: auto;
   }

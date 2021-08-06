@@ -1,0 +1,9 @@
+.header__list-item {
+  margin: 0;
+  padding: 0;
+  padding-left: 18px;
+}
+
+.header__list-item:first-child {
+  padding-left: 0;
+}

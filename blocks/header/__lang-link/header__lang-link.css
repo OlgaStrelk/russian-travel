@@ -1,14 +1,16 @@
 .header__lang-link {
   margin: 0;
   padding: 0;
-  padding-left: 18px;
   font-size: 1.5rem;
   line-height: 28px;
-  list-style-type: none;
+  color:#FFFFFF;
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity 1s linear;
 }
 
-.header__lang-link:first-child {
-  padding-left: 0;
+.header__link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {

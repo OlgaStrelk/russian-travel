@@ -1,4 +1,4 @@
-.places__image {
+.cards__image {
   grid-area: image;
   width: 100%;
   object-fit: cover;

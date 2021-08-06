@@ -1,0 +1,13 @@
+.cards__website {
+  margin: 0;
+  padding: 0;
+  grid-area: website;
+  align-self: end;
+  justify-self: start;
+}
+
+@media screen and (max-width: 767px) {
+  .cards__website {
+    padding-left: 16px;
+  }
+}
